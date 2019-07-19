@@ -1,0 +1,7 @@
+"UnionTypeNamespacePrefix","UnionTypeName","UnionQualifiedType","MemberTypeNamespacePrefix","MemberTypeName","MemberQualifiedType"
+"biom","FrictionRidgePositionCodeSimpleType","biom:FrictionRidgePositionCodeSimpleType","biom","UnknownPositionCodeSimpleType","biom:UnknownPositionCodeSimpleType"
+"biom","FrictionRidgePositionCodeSimpleType","biom:FrictionRidgePositionCodeSimpleType","biom","PlantarPositionCodeSimpleType","biom:PlantarPositionCodeSimpleType"
+"biom","FrictionRidgePositionCodeSimpleType","biom:FrictionRidgePositionCodeSimpleType","biom","PalmPositionCodeSimpleType","biom:PalmPositionCodeSimpleType"
+"biom","FrictionRidgePositionCodeSimpleType","biom:FrictionRidgePositionCodeSimpleType","biom","FingerPositionCodeSimpleType","biom:FingerPositionCodeSimpleType"
+"biom","MajorCasePrintCodeSimpleType","biom:MajorCasePrintCodeSimpleType","biom","SegmentLocationCodeSimpleType","biom:SegmentLocationCodeSimpleType"
+"biom","MajorCasePrintCodeSimpleType","biom:MajorCasePrintCodeSimpleType","biom","FingerViewCodeSimpleType","biom:FingerViewCodeSimpleType"

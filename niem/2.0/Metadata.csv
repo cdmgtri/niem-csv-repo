@@ -1,0 +1,7 @@
+"MetadataTypeNamespacePrefix","MetadataTypeName","MetadataQualfiedType","AppliesToTypeNamespacePrefix","AppliesToTypeName","AppliesToQualifiedType"
+"j","JusticeMetadataType","j:JusticeMetadataType","s","Association","s:Association"
+"j","JusticeMetadataType","j:JusticeMetadataType","s","Object","s:Object"
+"nc","MeasureMetadataType","nc:MeasureMetadataType","nc","MeasureType","nc:MeasureType"
+"nc","MetadataType","nc:MetadataType","s","Association","s:Association"
+"nc","MetadataType","nc:MetadataType","s","Object","s:Object"
+"scr","PersonMetadataType","scr:PersonMetadataType","nc","PersonType","nc:PersonType"

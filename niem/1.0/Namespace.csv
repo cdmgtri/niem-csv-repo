@@ -1,0 +1,113 @@
+"NamespacePrefix","NamespaceFile","VersionURI","VersionReleaseNumber","NamespaceStyle","NamespaceIsExternallyGenerated","IsConformant","Definition"
+"addr","",,"1.0","N",1,0,"Draft ANSI Address Data Content Standard schema. See http://www.ansi.org/"
+"ansi_d20","ansi_d20","http://niem.gov/niem/ansi_d20/1.0","1.0","E",0,1,"Motor vehicle administration codes from ANSI D20, the Data Dictionary for Traffic Record Systems, maintained by AAMVA, the American Association of Motor Vehicle Administrators."
+"apco","apco","http://niem.gov/niem/apco/1.0","1.0","E",0,1,"The Association of Public-Safety Communications Officials (APCO) - International, Inc"
+"c","common","http://niem.gov/niem/common/1.0","1.0","C",0,1,"NIEM common core"
+"can","post-canada","http://niem.gov/niem/post-canada/1.0","1.0","E",0,1,"Province codes for Canada."
+"cap",,,"1.0","N",1,0,"The Common Alerting Protocol (CAP) is a simple but general format for exchanging all-hazard
+
+emergency alerts and public warnings over all kinds of networks. CAP allows a consistent
+
+warning message to be disseminated simultaneously over many different warning systems, thus
+
+increasing warning effectiveness while simplifying the warning task. CAP also facilitates the
+
+detection of emerging patterns in local warnings of various kinds, such as might indicate an
+
+undetected hazard or hostile act. And CAP provides a template for effective warning messages
+
+based on best practices identified in academic research and real-world experience."
+"census","census","http://niem.gov/niem/census/1.0","1.0","E",0,1,"Employment codes from the U.S. Census Bureau."
+"context","",,"1.0","N",1,0,"Adaptation of OGC Web Map Context schema to work with current versions of other schemas. Adaptation of OGC Web Map Context schema, that imports version 1.0.20 definitions from the StyledLayerDescriptor schema instead of the version 1.0.0 ones, and thereby imports version 1.1 instead of version 1.0 of the filter schema.  The sld:FeatureTypeStyle element was replaced by sld:FeatureStyle element with the same content.
+   See http://www.opengeospatial.org for documentation, http://schemas.opengis.net/context/ for schemas."
+"de",,,"1.0","N",1,0,"This Distribution Element specification describes a standard message distribution framework for data sharing among emergency information systems using the XML-based Emergency Data Exchange Language (EDXL). This format may be used over any data transmission system, including but not limited to the SOAP HTTP binding."
+"dod","dod_misc","http://niem.gov/niem/dod_misc/1.0","1.0","E",0,1,"Security level codes from the Department of Defense (DoD)."
+"dod_jcs-pub2.0","dod_jcs-pub2.0-misc","http://niem.gov/niem/dod_jcs-pub2.0-misc/1.0","1.0","E",0,1,"Intelligence discipline codes from the Department of Defense (DoD) Joint Chiefs of Staff (JCS) Publication 2.0, Appendix A."
+"edxl","edxl","http://niem.gov/niem/edxl/1.0","1.0","E",0,1,"EDXL"
+"edxl-cap","edxl-cap","http://niem.gov/niem/edxl-cap/1.0","1.0","A",0,1,"The Common Alerting Protocol (CAP)."
+"edxl-de","edxl-de","http://niem.gov/niem/edxl-de/1.0","1.0","A",0,1,"Distribution Element"
+"em","emergencyManagement","http://niem.gov/niem/domains/emergencyManagement/1.0","1.0","D",0,1,"NIEM emergency management domain schema framework"
+"eo-12958","eo-12958","http://niem.gov/niem/eo-12958/1.0","1.0","E",0,1,"Security classification codes from Presidential Executive Order 12958."
+"ex","",,"1.0","N",1,0,"ISO 10303:part(28):version(2) schema used by IFC See http://www.iai-international.org and http://www.iai-na.com/ for documentation and schemas."
+"fips_10-4","fips_10-4","http://niem.gov/niem/fips_10-4/1.0","1.0","E",0,1,"Countries, dependencies, areas of special sovereignty, and their principal administrative divisions from the Federal Information Processing Standards (FIPS) 10-4."
+"fips_5-2","fips_5-2","http://niem.gov/niem/fips_5-2/1.0","1.0","E",0,1,"Codes for the identification of the states, the District of Columbia and the outlying areas of the United States, and associated areas from the Federal Information Processing Standards (FIPS) 5-2."
+"fips_6-4","fips_6-4","http://niem.gov/niem/fips_6-4/1.0","1.0","E",0,1,"Counties and equivalent entities of the United States, its possessions, and associated areas from the Federal Information Processing Standards (FIPS) 6-4."
+"gco","",,"1.0","N",1,0,"ISO/TC211 19139 Metadata definitions compatible with GML3.1.1 Imported by gmd4niem.xsd and re-imported here. See http://www.opengeospatial.org for documentation and schemas."
+"gmd","",,"1.0","N",1,0,"ISO/TC211 19139 Metadata definitions compatible with GML3.1.1 Imported by om4niem.xsd and re-imported here. See http://www.opengeospatial.org for documentation and schemas."
+"gml","",,"1.0","N",1,0,"A profile of Geography Markup Language (GML) version 3.1.1 schemas for niem.  See http://www.opengeospatial.org for documentation, http://schemas.opengis.net/gml/ for schemas."
+"gs","geospatial","http://niem.gov/niem/geospatial/1.0","1.0","A",0,1,"Defines NIEM adapter types for external geospatial components defined by OGC, LIF, LandXML, IAI, and ANSI.  This schema defines NIEM adapter types for external geospatial components defined by OGC, LIF, LandXML, IAI, and ANSI.
+
+
+
+It also defines property types and elements according to the conventions required by the Geography Markup Language (GML) specification.  These property types and elements allow niem geospatial adapter elements to be referenced from GML conformant application schemas.  This situation is described in external-standards.pdf as Case 2: External schemas reference, import, and use NIEM components., but not addressed by that document.  However, it applies to the development of the GML application schemas that must in most cases be developed to effectively use GML in niem IEPs.
+
+
+
+Note for schema readers:  The XML/Schema specification does not require processing implementations to transitively import definitions from imported schemas.   To assure that all required definitions are available, a schema must re-import the schemas that are imported by the schemas it imports. Such re-imports are noted in the documentation."
+"have","have","http://niem.gov/niem/have/1.0","1.0","E",0,1,"EDXL Hospital AVailability Exchange (HAVE)"
+"i","appinfo","http://niem.gov/niem/appinfo/1.0","1.0","S",1,1,"Elements for use within xsd:appinfo to indicate information supporting the data model underlying NIEM."
+"ifc","",,"1.0","N",1,0,"International Foundation Classes (IFC) Schema by the International Association for Interoperability (IAI) See http://www.iai-international.org and http://www.iai-na.com/ for documentation and schemas."
+"im","immigration","http://niem.gov/niem/domains/immigration/1.0","1.0","D",0,1,"Immigration"
+"intel","intelligence","http://niem.gov/niem/domains/intelligence/1.0","1.0","D",0,1,"NIEM intelligence domain schema framework"
+"ip","infrastructureProtection","http://niem.gov/niem/domains/infrastructureProtection/1.0","1.0","D",0,1,"Infrastructure Protection"
+"ism","ic-ism","http://niem.gov/niem/ic-ism/1.0","1.0","E",0,1,"Intelligence Community Information Security Marking"
+"iso_3166","iso_3166","http://niem.gov/niem/iso_3166/1.0","1.0","E",0,1,"Codes for the representation of names of countries and their subdivisions from the International Organization for Standardization (ISO) 3166-1:1997."
+"iso_4217","iso_4217","http://niem.gov/niem/iso_4217/1.0","1.0","E",0,1,"Codes for the representation of currencies and funds from the International Organization for Standardization (ISO) 4217:2001."
+"iso_639-2b","iso_639-2b","http://niem.gov/niem/iso_639-2b/1.0","1.0","E",0,1,"Codes for the representation of names of languages from the International Organization for Standardization (ISO) 639-2/B (bibliographic codes)."
+"iso_639-2t","iso_639-2t","http://niem.gov/niem/iso_639-2t/1.0","1.0","E",0,1,"Codes for the representation of names of languages from the International Organization for Standardization (ISO) 639-2/T (terminology codes)."
+"it","internationalTrade","http://niem.gov/niem/domains/internationalTrade/1.0","1.0","D",0,1,"International Trade"
+"itis","itis","http://niem.gov/niem/itis/1.0","1.0","E",0,1,"Integrated Transportation Information System (ITIS)"
+"j","justice","http://niem.gov/niem/domains/justice/1.0","1.0","D",0,1,"NIEM justice domain"
+"land","",,"1.0","N",1,0,"LandXML Version 1.1 WORKING DRAFT Schema file See http://www.landxml.org for documentation and schemas."
+"lasd","lasd","http://niem.gov/niem/lasd/1.0","1.0","E",0,1,"Los Angeles Sheriffs Department"
+"mmr","",,"1.0","N",1,0,"Multi-modal route schema for niem based on OpenLS route. See http://www.isotc211.org/ for 19133, 19134 standards, http://www.opengeospatial.org for documentation,  http://schemas.opengis.net/ols/ for schemas."
+"mmucc_2","mmucc_2","http://niem.gov/niem/mmucc_2/1.0","1.0","E",0,1,"Model Minimum Uniform Crash Criteria"
+"mn_off","mn_offense","http://niem.gov/niem/mn_offense/1.0","1.0","E",0,1,"Statute and offense codes from the state of Minnesota."
+"mo","",,"1.0","N",1,0,"Mobile Object schema for niem based on GML Mobile Object; uses gml:pointProperty instead of gml:location, which is deprecated in (ISO) GML v3.2. See http://www.opengeospatial.org for documentation, http://schemas.opengis.net/gml/ for schemas."
+"ncic","ncic_2000","http://niem.gov/niem/ncic_2000/1.0","1.0","E",0,1,"Codes from the National Crime and Information Center (NCIC) 2000 standard."
+"nibrs","nibrs_misc","http://niem.gov/niem/nibrs_misc/1.0","1.0","E",0,1,"Miscellaneous crime-reporting codes from the National Incident-Based Reporting System (NIBRS)."
+"niem-xsd","xsd","http://niem.gov/niem/proxy/xsd/1.0","1.0","P",0,1,"Proxy types that carry dictionary metadata and have XML data type simple contents."
+"nlets","nlets","http://niem.gov/niem/nlets/1.0","1.0","E",0,1,"NLETS - The International Justice and Public Safety Information Sharing Network"
+"nonauth","nonauthoritative-code","http://niem.gov/niem/nonauthoritative-code/1.0","1.0","E",0,1,"Non-authoritative codes for the direction of a person&apos;s pose in an image."
+"ogc","",,"1.0","N",1,0,"Schema that contains the definitions from the OGC schema documents filter.xsd, expr.xsd, sort.xsd, and filterCapabilities.xsd. Schema that contains the definitions from the OGC schema documents filter.xsd, expr.xsd, sort.xsd, and filterCapabilities.xsd.  
+Imported by StyledLayerDescriptor4niem.xsd and re-imported here.
+See http://www.opengeospatial.org for documentation, http://schemas.opengis.net/filter/ for schemas."
+"om","",,"1.0","N",1,0,"This schema is a profile for NIEM of the complete schema from &quot;Observations and Measurements. This schema is a profile for NIEM of the complete schema from &quot;Observations and Measurements OpenGIS Draft Implementation Specification IPR, OGC Document 05-087r1_OM_OWS-3_SWE_IPR, Copyright 2005 Open Geospatial Consortium, Inc.   Schema definitions are also Copyright 2005 CSIRO - see https://www.seegrid.csiro.au/twiki/bin/view/Xmml/LegalNotices#Software_Notice
+
+See http://www.opengeospatial.org for documentation and schemas"
+"s","structures","http://niem.gov/niem/structures/1.0","1.0","S",1,1,"Schema constructs for use by NIEM-conformant schemas to provide consistent definitions and functionality."
+"scr","screening","http://niem.gov/niem/domains/screening/1.0","1.0","D",0,1,"The Screening namespace provides harmonized information sharing content within the Screening Portfolio of DHS. The Screening namespace is initially being populated with person screening information for immigrant and non-immigrant person types who have been encountered and identified by the Screening Portfolio Components.  The Screening namespace expands on encounter-related NIEM elements currently included in the Immigration and Intelligence domains."
+"sld","",,"1.0","N",1,0,"Adaptation of Styled Layer Descriptor schemas for niem to import the current 1.1 version of the filter schema. Adaptation of Styled Layer Descriptor schemas for niem to work with current version of the filter schema. Schema that contains the definitions from the OGC schema documents common.xsd, Symbol.xsd, FeatureStyle.xsd, and StyledLayerDescriptor.xsd.   Imported by context4niem.xsd and re-imported here.
+See http://www.opengeospatial.org for documentation, http://schemas.opengis.net/sld/ for schemas."
+"swe","",,"1.0","N",1,0,"Sensor Web Enablement (SWE) schema for NIEM to support Observations and Measurements. Sensor Web Enablement (SWE) schema for NIEM to support Observations and Measurements.  
+
+  
+
+First part adapted from schemas from &quot;Observations and Measurements&quot;, OpenGIS Draft Implementation Specification IPR, OGC Document 05-087r1_OM_OWS-3_SWE_IPR, Copyright 2005 Open Geospatial Consortium, Inc. 
+
+
+
+Schema definitions in the first part of this document are also Copyright 2005 CSIRO - see https://www.seegrid.csiro.au/twiki/bin/view/Xmml/LegalNotices#Software_Notice
+
+
+
+Second part adapted from &quot;OpenGIS Sensor Model Language (SensorML)&quot;, OpenGIS Best Practices Paper, OCG Document 05-086_Sensor_Model_Language_SensorML,both Copyright 2005 Open Geospatial Consortium, Inc. 
+
+  
+
+Imported by om4niem.xsd and re-imported here.
+
+
+
+See http://www.opengeospatial.org for documentation and schemas"
+"twpdes","twpdes","http://niem.gov/niem/twpdes/1.0","1.0","E",0,1,"Terrorist Watchlist Person Data Exchange Standard (TWPDES)"
+"u","universal","http://niem.gov/niem/universal/1.0","1.0","C",0,1,"NIEM universal core"
+"ucr","ucr","http://niem.gov/niem/ucr/1.0","1.0","E",0,1,"Crime reporting codes from Uniform Crime Reporting"
+"unece","unece_rec20-misc","http://niem.gov/niem/unece_rec20-misc/1.0","1.0","E",0,1,"Miscellaneous unit of measurement code from the United Nations Economic Commission for Europe Recommendation No. 20, &quot;Codes for Units of Measure used in International Trade&quot;."
+"usps","usps_states","http://niem.gov/niem/usps_states/1.0","1.0","E",0,1,"United States state and possession abbreviations from the United States Postal Service (USPS)."
+"ut_offender","ut_offender-tracking-misc","http://niem.gov/niem/ut_offender-tracking-misc/1.0","1.0","E",0,1,"Plea codes and military discharge codes from the Utah Offender Tracking Database, version 2.03."
+"xhtml",,"http://www.w3.org/1999/xhtml","1.0","S",1,1,"The Extensible HyperText Markup Language, which is a family of current and future document types and modules that reproduce, subset, and extend HTML 4."
+"xlink","",,"1.0","N",1,0,"Definition of XML hyperlinks. See http://www.opengeospatial.org for documentation, http://schemas.opengis.net/xlink/ for schemas."
+"xls","",,"1.0","N",1,0,"A profile of OpenGeospatialConsortium (OpenGIS, OGC) OpenLS (Location Services) version 1.1 schemas. A profile of OpenGeospatialConsortium (OpenGIS, OGC) OpenLS (Location Services) version 1.1 schemas that have been edited to use GML version 3.1.1 schemas instead of the GML version 3.0 schemas that were current when OpenLS version 1.1 was promulgated.
+See http://www.opengeospatial.org for documentation, http://schemas.opengis.net/ols/ for schemas."
+"xsd",,"http://www.w3.org/2001/XMLSchema","1.0","S",1,1,"The XML Schema definition language, which offers facilities for describing the structure and constraining the contents of XML documents"
