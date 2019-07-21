@@ -1,9 +1,9 @@
 
-# NIEM Data CSV
+# NIEM CSV Repo
 
 This repo provides NIEM release data formatted as CSV files.  This can be used to simplify parsing and easily import NIEM component information into a local database or application.
 
-CSV files have traditionally been provided with published NIEM releases as an alternate format to the standard XML Schemas.  This repo serves to aggregate all of this information in one location.  It also updates the CSVs for older releases with additional information and the latest format, so each set of release files are consistent.
+CSV files have traditionally been provided with published NIEM releases as an alternate format to the authoritative XML Schemas.  This repo serves to aggregate all of this information in one location.  It also updates the CSVs for older releases with additional information and the latest format, so each set of release CSV files are consistent.
 
 ## References
 
